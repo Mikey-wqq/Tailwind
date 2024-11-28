@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body>
+    <main class="min-h-screen min-w-screen bg-lime-400 flex items-center justify-center">
+        
+        <div class="form-container border w-full h-screen ">
+            <form action="" class="w-1/4 h-auto shadow-md p-5 rounded-md mx-auto mt-10 bg-white">
+                <div class="my-4 flex justify-between items-center">
+                    <label for="">Email</label>
+                    <input type="email" class="bg-slate-100 active-outline active:outline-offset-2 outline-blue-400 rounded">
+
+                </div>
+
+                <div class="my-4 flex justify-between items-center">
+                    <label for="">Password</label>
+                    <input type="password" class="bg-slate-100 active-outline active:outline-offset-2 outline-blue-400 rounded">
+                </div>
+
+                <div>
+                    <input type="submit" value="Login" class=" cursor-pointer text-white active:ring hover:ring bg-blue-500 py-1 hover:bg-blue-300 active-bg-blue-700 rounded w-full my-4">
+                </div>
+
+                <div>
+                    
+                    <div class=" flex flex-col gap-y4">
+                        <p class="text-center mb-4">Continue with</p>
+                        <button class="py-2 w-100 border hover:bg-blue-400 my-2 "><box-icon type='logo' name='google'></box-icon></button>
+                        <button class="py-2 w-100 border hover:bg-blue-400 my-2"><box-icon type='logo' name='linkedin-square'></box-icon></button>
+                        <button class="py-2 w-100 border hover:bg-blue-400 my-2"><box-icon type='logo' name='github'></box-icon></button>
+
+                    </div>
+                    
+                </div>
+            
+            </form>
+        </div>
+    </main>
+</body>
+</html>

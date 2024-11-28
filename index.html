@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        tailwind.config ={
+            theme:{
+                extend:{
+                    colors:{
+                        ehis: '#fff3b2',
+                        sidney:'#ffe0d8',
+                        ayo: '#ff9b93',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="border p-6 bg-white rounded-xl shadow-lg hover:bg-ayo max-w-sm mx-auto flex items-center gap-x-4">
+
+        <div class="text-2xl text-blue-800">
+            <i class="fa-solid fa-comments "></i>
+        </div>
+
+        <div>
+            <h2 class="text-xl font-md-text-black">Messages</h2>
+            <p class="text-slate-500 text-sm">You have a new message!</p>
+        </div>
+
+    </div>
+
+    
+    
+</body>
+</html>
